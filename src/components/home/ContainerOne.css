@@ -1,0 +1,89 @@
+.main-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background: url("https://fifty-fifth.com/wp-content/uploads/2024/07/NICORETTE.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 1 px solid;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-right {
+    flex-basis: 50%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-main-content {
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+.company-name {
+    color: white;
+    margin-left: 30px;
+}
+
+.company-name-line {
+    border-bottom: 3px solid white;
+    width: 50px;
+    margin: 0 10px;
+}
+
+.bottom-left-outer {
+    padding: 30px 10px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.bottom-left-inner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    bottom: 110px;
+    width: 25%;
+}
+
+.selections-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+.diamond-shape-cont-1 {
+    border: 1px solid white;
+    background: transparent;
+    height: 12px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 12px;
+    cursor: pointer;
+}
+
+.diamond-shape-cont-1:hover {
+    background-color: white;
+}

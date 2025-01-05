@@ -1,0 +1,33 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  outline: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+  color:white;
+}
+
+h1 {
+  font-family: 'Acme';
+}
+
+h2 {
+  font-family: 'Rubik Vinyl', cursive;
+}
+h3 {
+  font-family: 'Rubik Vinyl', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.button {
+  font-family: 'Afacad Flux', sans-serif;
+  font-weight: 700;
+}

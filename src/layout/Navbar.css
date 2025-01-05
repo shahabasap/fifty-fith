@@ -1,0 +1,17 @@
+.nav-outer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: transparent;
+}
+
+.diamond-shape {
+    border:1px solid white;
+    background: #0000;
+    height: 15px;
+    text-align: center;
+    transform:rotate(45deg);
+    width:15px;
+    cursor: pointer;
+  }
